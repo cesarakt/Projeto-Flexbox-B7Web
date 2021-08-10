@@ -117,7 +117,6 @@ nav a:hover {
 
 .banner_3 {
     background-color: #2b4c99;
-    flex-direction: column;
 }
 
 .banner_title {
@@ -127,7 +126,10 @@ nav a:hover {
 .banner_content {
     font-size: 14px;
     margin-top: 20px;
-    margin-bottom: 20px;
+}
+
+.banner_content_hours {
+    font-size: 14px;
 }
 
 .banner_options a {
@@ -137,6 +139,7 @@ nav a:hover {
     color: #FFF;
     font-size: 13px;
     padding: 5px;
+    margin-top: 20px;
 }
 
 .banner_hours {
@@ -268,7 +271,7 @@ aside .widget_body {
 
 .schedule_title, .schedule_text{
     color: #5c5c5c;
-    font-size: 15px;
+    font-size: 12px;
 }
 
 .schedule_bar {
@@ -330,6 +333,10 @@ footer .footer_menu {
 
 .content_item {
     flex: 1;
+}
+
+footer .widget_body {
+    padding-right: 10px;
 }
 
 footer .widget_title {
@@ -398,4 +405,102 @@ footer .footer_copy {
     display: block;
     color: #5c5c5c;
     font-size: 12px;
+}
+
+.menu_mobile {
+    display: none;
+    width: 40px;
+    height: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+
+.menu_bar {
+    width: 40px;
+    height: 3px;
+    background-color: #39aae1;
+}
+
+aside .schedule_box .schedule_text a {
+    margin-right: 0;
+}
+
+@media (max-width: 980px) {
+    .logo, .banner_headline , .footer_content{
+        padding-left: 20px;
+    }
+    
+    #geral section, .footer_copy {
+        padding-left: 20px;
+    }
+
+    header {
+        height: auto;
+    }
+
+    nav ul {
+        flex-direction: column;
+        margin-right: 20px;
+        margin-top: 20px;
+        display: none;
+    }
+
+    .menu_mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        
+    }
+
+    
+}
+
+@media (max-width:935px) {
+
+    aside .widget_body {
+        justify-content: flex-start;
+    }
+
+    aside .widget_body a {
+        margin-right: 20px;
+    }
+    article .widget_departments img {
+        max-width: 290px;
+    }
+}
+
+@media (max-width:650px) {
+    .banner_headline h1 {
+        font-size: 40px;
+    }
+    .banner_headline h2 {
+        font-size: 16px;
+    }
+
+    #banner {
+        height: 750px;
+    }
+
+    .banner_options {
+        flex-direction: column;
+        height: auto;
+    }
+
+    aside .widget_title {
+        margin-top: 0;
+    }
+
+    #geral .container, footer .footer_content {
+        flex-direction: column;
+    }
+
+    #geral aside {
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    
+    footer .footer_menu {
+        flex-direction: column;
+    }
 }
