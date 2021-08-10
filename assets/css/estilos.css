@@ -39,6 +39,7 @@ nav li {
 
 nav ul {
     display: flex;
+      
 }
 
 nav li a{
@@ -441,9 +442,12 @@ aside .schedule_box .schedule_text a {
 
     nav ul {
         flex-direction: column;
-        margin-right: 20px;
-        margin-top: 20px;
         display: none;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        background-color: #FFF;
+        
     }
 
     .menu_mobile {
@@ -503,4 +507,5 @@ aside .schedule_box .schedule_text a {
     footer .footer_menu {
         flex-direction: column;
     }
+
 }

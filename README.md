@@ -7,6 +7,7 @@
 
 * HTML5
 * CSS3
+* Java Script
 
 #### Clone este repositório
 ```bash
