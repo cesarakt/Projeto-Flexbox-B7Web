@@ -118,7 +118,6 @@ nav a:hover {
 .banner_3 {
     background-color: #2b4c99;
     flex-direction: column;
-
 }
 
 .banner_title {
@@ -280,7 +279,7 @@ aside .widget_body {
 
 .schedule_box {
     display: flex;
-    padding: 10px;
+    padding: 10px 0px 10px;
     align-items: center;
     color: #5c5c5c;
 }
@@ -291,4 +290,112 @@ aside .widget_body {
     margin-right: 10px;
 }
 
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+}
 
+footer .footer_menu {
+    display: flex;
+    flex: 1;
+}
+
+.fm1, .fm2, .fm3 {
+    flex: 1;
+}
+
+.footer_menu a {
+    padding: 20px;
+    color: #FFF;
+    display: block;
+    text-decoration: none;
+}
+
+.fm1 {
+    background-color: #39aae1;
+}
+
+.fm2 {
+    background-color: #0079c7;
+}
+
+.fm3 {
+    background-color: #2b4c99;
+}
+
+.footer_content {
+    display: flex;
+}
+
+.content_item {
+    flex: 1;
+}
+
+footer .widget_title {
+    color: #FFF;
+}
+
+footer .title_description, footer .description {
+    color: #5c5c5c;
+    font-size: 12px;
+}
+
+footer .description {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+
+footer .description div {
+    margin-right: 20px;
+}
+
+footer .social{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.social img {
+    width: 20px;
+    height: auto;
+    margin-right: 10px;
+}
+
+footer .content_post {
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+footer .content_post_tt {
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+footer .content_post_tt a {
+    color: #5c5c5c;
+}
+
+footer .content_post a {
+    color: #FFF;
+}
+
+footer .data_post {
+    margin-top: 10px;
+}
+
+footer .data_post a{
+    color: #0079c7;
+}
+
+footer .footer_copy {
+    border-top: 1px solid #5c5c5c;
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    color: #5c5c5c;
+    font-size: 12px;
+}
