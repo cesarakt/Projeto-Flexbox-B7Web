@@ -184,6 +184,111 @@ nav a:hover {
     background-color: #39aae1;
 }
 
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.widget_body {
+    flex: 1;
+}
+
+.widget_body a{
+    text-decoration: none;
+}
+
+article {
+    flex: 1;
+    min-width: 300px;
+    margin-right: 20px;
+}
+
+article .news_data {
+    display: flex;
+}
+
+article .news_posted_at {
+    background-color: #2b4c99;
+    color: #FFF;
+    font-size: 12px;
+    padding: 10px;
+    margin-right: 2px;
+}
+
+article .news_comments {
+    background-color: #39aae1;
+    color: #FFF;
+    font-size: 12px;
+    padding: 10px;
+}
+
+article .news_thumbnail {
+    margin-top: 20px;
+    min-width: 300px;
+}
+
+article .news_thumbnail img{
+    width: 100%;
+    height: auto;
+}
+
+article .news_title {
+    color: #000;
+    font-size: 21px;
+    margin-top: 20px;
+}
+
+article .news_content {
+    color: #5c5c5c;
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.widget_responsive {
+    min-width: 150px;
+    margin:0 ;
+    margin-bottom: 30px;
+}
+
+article .widget_departments img {
+    max-width: 150px;
+    width: 100%;
+    height: auto;
+}
+
+aside .widget_body {
+    justify-content: space-between;
+}
+
+.schedule {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.schedule_title, .schedule_text{
+    color: #5c5c5c;
+    font-size: 15px;
+}
+
+.schedule_bar {
+    width: 100%;
+    background-color: #555555;
+    height: 1px;
+}
+
+.schedule_box {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    color: #5c5c5c;
+}
+
+.schedule_box img {
+    width: 25px;
+    height: auto;
+    margin-right: 10px;
+}
 
 
